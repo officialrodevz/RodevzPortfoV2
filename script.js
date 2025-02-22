@@ -20,14 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const discordBtn = document.getElementById('discord-btn');
     discordBtn.href = discordInviteUrl;
 
-    // Contact form submission
-    const contactForm = document.getElementById('contact-form');
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        alert('Form submitted successfully!');
-        contactForm.reset();
-    });
-
     // Modal elements
     const modal = document.getElementById('project-modal');
     const modalTitle = document.getElementById('modal-title');
